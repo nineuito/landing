@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 64px 120px;
+    background-image: url(/landing/images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top {
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu {
+    margin: 0;
+    padding: 64px 120px;
+    height: 100vh;
+    background-color: #E8EFF9;
+    
+}
+
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.menu-list-text-first,.menu-list-text-second,.menu-list-text-three {
+    padding-bottom: 32px;
+}
+
