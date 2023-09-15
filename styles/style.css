@@ -1,7 +1,17 @@
-body {
-    margin: 0;
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    height: 800px;
+}
+
+/* #region header */
 .header {
     display: flex;
     flex-direction: column;
@@ -19,7 +29,8 @@ body {
     display:flex;
     justify-content: space-between;
 }
-
+/* #endregion */
+/* #region menu */
 .menu {
     margin: 0;
     padding: 64px 120px;
@@ -33,8 +44,22 @@ body {
     justify-content: space-between;
     padding-bottom: 64px;
 }
-
-.menu-list-text-first,.menu-list-text-second,.menu-list-text-three {
-    padding-bottom: 32px;
+/* #endregion */
+/* #region nav */
+.nav {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 32px;
 }
 
+.nav__link {
+    text-transform: uppercase;
+    color: #292929;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+/* #endregion */
