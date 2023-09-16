@@ -99,3 +99,23 @@ section {
     letter-spacing: -1.5px;
     text-align: center;
 }
+
+.categories__title {
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    text-align: center;
+}
+
+
+.how-to-buy__title {
+    margin-top: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+}
