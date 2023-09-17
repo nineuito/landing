@@ -109,15 +109,23 @@ body {
     gap: 24px;
 }
 
+/* #endregion */
+/* #region product */
+
+.product {
+    flex-basis: 324px;
+}
+
 .product__photo {
     width: 100%;
     margin-bottom: 32px;
 }
 
 .product__title {
-    font-size: 16px;
     margin-top: 0;
     margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 140%;
 }
 
 .product_category {
@@ -130,7 +138,6 @@ body {
     font-weight: bold;
 }
 /* #endregion */
-
 /* #region categories */
 .categories__title {
     margin-top: 0;
@@ -142,7 +149,6 @@ body {
     text-align: center;
 }
 /* #endregion */
-
 /* #region how-to-buy */
 .how-to-buy__title {
     margin-top: 0;
